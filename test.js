@@ -6,7 +6,7 @@ const fit = require(".")
 const mtcars = require("mtcars")
 const round = require("lodash.round")
 
-test("fit mtcars", async (t) => {
+test("fit mtcars", (t) => {
   const mpg = mtcars.map((x) => x.mpg)
   const n = mpg.length
   const m = 2
@@ -20,7 +20,7 @@ test("fit mtcars", async (t) => {
   ).transpose()
 
   // fit the model
-  const coefficents = await fit(designMatrix, response)
+  const coefficents = fit(designMatrix, response)
 
   // computed with R 3.4.2
   // fited coefficents

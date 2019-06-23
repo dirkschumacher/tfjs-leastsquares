@@ -1,6 +1,6 @@
 {
   "name": "tfjs-leastsquares",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "@tensorflow/tfjs-core": "^1.2.1",
-    "tfjs-backsolve": "github:dirkschumacher/tfjs-backsolve#v0.0.1"
+    "tfjs-backsolve": "github:dirkschumacher/tfjs-backsolve#v0.1.0"
   }
 }
