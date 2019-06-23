@@ -19,6 +19,6 @@ const designMatrix = tfc.tensor2d(
 ).transpose()
 
 // fit the model
-const coefficents = await fit(designMatrix, response)
-// tensor1d: [-0.107465705415024, 5.403644695759401]
+const coefficents = fit(designMatrix, response)
+// tensor2d: [[-0.107465705415024], [5.403644695759401]]
 ```
