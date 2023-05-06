@@ -15,7 +15,7 @@
     "tape": "^4.10.2"
   },
   "dependencies": {
-    "@tensorflow/tfjs-core": "^1.2.1",
+    "@tensorflow/tfjs-core": "^4.5.0",
     "tfjs-backsolve": "github:dirkschumacher/tfjs-backsolve#v0.1.0"
   }
 }
